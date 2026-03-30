@@ -183,6 +183,12 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+.media-frame {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
 .hero-image {
   display: block;
   width: 100%;
@@ -192,11 +198,27 @@ h2 {
   object-position: center;
 }
 
+.section-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .image-placeholder.large {
   min-height: 480px;
 }
 
 .image-placeholder.medium {
+  min-height: 380px;
+}
+
+.media-frame.large {
+  min-height: 480px;
+}
+
+.media-frame.medium {
   min-height: 380px;
 }
 
